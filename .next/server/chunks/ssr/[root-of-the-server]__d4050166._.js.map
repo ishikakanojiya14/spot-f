@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 117, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/ishik/Desktop/spotify-master/spotify-master/src/app/artists/%5Bid%5D/page.js"],"sourcesContent":["\"use client\";\r\nimport axios from 'axios';\r\nimport React, { useEffect, useState } from 'react'\r\n\r\nconst page = () => {\r\n  console.log(req.params.id);\r\n  const fetchArtist = async() => {\r\n    await axios.get(`/find-artist/${req.params.id}`,)\r\n  }\r\n  const [artist, setArtist] = useState(null);\r\n  useEffect(() => {\r\n    // fetchArtist();\r\n  })\r\n  return (\r\n    <div></div>\r\n  )\r\n}\r\n\r\nexport default page"],"names":[],"mappings":";;;;AACA;AACA;AAFA;;;;AAIA,MAAM,OAAO;IACX,QAAQ,GAAG,CAAC,IAAI,MAAM,CAAC,EAAE;IACzB,MAAM,cAAc;QAClB,MAAM,qIAAA,CAAA,UAAK,CAAC,GAAG,CAAC,CAAC,aAAa,EAAE,IAAI,MAAM,CAAC,EAAE,EAAE;IACjD;IACA,MAAM,CAAC,QAAQ,UAAU,GAAG,CAAA,GAAA,qMAAA,CAAA,WAAQ,AAAD,EAAE;IACrC,CAAA,GAAA,qMAAA,CAAA,YAAS,AAAD,EAAE;IACR,iBAAiB;IACnB;IACA,qBACE,8OAAC;;;;;AAEL;uCAEe","debugId":null}}]
+}
